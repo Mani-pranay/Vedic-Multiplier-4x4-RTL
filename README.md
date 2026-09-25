@@ -11,7 +11,7 @@ Indian Vedic mathematics. Implemented in Verilog RTL using hierarchical design.
 - Complete testbench
 
 ## Block diagram
-![4x4_vedic_multiplier](images/4x4_vedic_multiplier.png)
+https://github.com/Mani-pranay/Vedic-Multiplier-4x4-RTL/raw/main/images/4x4_vedic_multiplier.jpg
 
 ## Module Hierarchy
 multiplier_using_vedic_4bit (Top)
@@ -42,7 +42,7 @@ multiplier_using_vedic_4bit (Top)
 | 15 | 15 | 225 | 011100001 |
 
 ## Simulation
-![4x4_vedic_multiplier_output_waveform](images/4x4_vedic_multiplier_output_waveform.png)
+https://github.com/Mani-pranay/Vedic-Multiplier-4x4-RTL/raw/main/images/4x4_vedic_multiplier_output_waveform.png
 ### Icarus Verilog
 ```bash
 iverilog -o vedic_tb src/*.v tb/*.v
