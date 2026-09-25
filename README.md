@@ -14,13 +14,13 @@ Indian Vedic mathematics. Implemented in Verilog RTL using hierarchical design.
 https://github.com/Mani-pranay/Vedic-Multiplier-4x4-RTL/raw/main/images/4x4_vedic_multiplier.jpg
 
 ## Module Hierarchy
-multiplier_using_vedic_4bit (Top)
-├── vedic_multiplier_2x2 (v0, v1, v2, v3)
-│ ├── andgate
-│ └── half_adder
-├── full_adder_4bit (f0, f1, f2)
-│ └── full_adder
-└── half_adder (h1)
+- **Top:** `multiplier_using_vedic_4bit`
+  - `vedic_multiplier_2x2` × 4 instances
+    - `andgate` × 4
+    - `half_adder` × 2
+  - `full_adder_4bit` × 3 instances
+    - `full_adder` × 4
+  - `half_adder` × 1
 
 ## Files
 | File | Description |
